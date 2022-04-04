@@ -30,6 +30,7 @@ const CameraControls = () => {
 };
 
 function SkyBox() {
+  // eslint-disable-next-line no-unused-vars
   const { scene } = useThree();
   return null;
 }

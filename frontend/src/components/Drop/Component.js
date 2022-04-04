@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+6import React, { useRef, useState } from "react";
 import { Canvas, useFrame, useThree, extend } from "react-three-fiber";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
@@ -31,6 +31,7 @@ const CameraControls = () => {
 };
 
 function SkyBox() {
+  // eslint-disable-next-line no-unused-vars
   const { scene } = useThree();
   return null;
 }
